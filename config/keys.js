@@ -1,5 +1,5 @@
 if (process.env.NODE_ENV === 'production') {
-	// return prod keys
+	console.log('Setting prod keys...');
 	module.exports = require('./prod');
 } else {
 	module.exports = require('./dev');
