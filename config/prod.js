@@ -6,5 +6,9 @@ module.exports = {
 	mlab: {
 		dbURI: process.env.MLAB_DB_URI
 	},
-	cookieKey: process.env.COOKIE_KEY
+	cookieKey: process.env.COOKIE_KEY,
+	stripe: {
+		publishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
+		secretKey: process.env.STRIPE_SECRET_KEY
+	}
 };
