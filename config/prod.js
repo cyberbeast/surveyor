@@ -10,5 +10,9 @@ module.exports = {
 	stripe: {
 		publishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
 		secretKey: process.env.STRIPE_SECRET_KEY
+	},
+	sendgrid: {
+		key: process.env.SENDGRID_KEY,
+		redirectDomain: process.env.SENDGRID_REDIRECT_DOMAIN
 	}
 };
